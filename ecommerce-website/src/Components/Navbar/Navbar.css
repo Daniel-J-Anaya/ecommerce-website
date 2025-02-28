@@ -44,6 +44,10 @@
   background: #FF4141;
 }
 
+.nav-menu a:visited {
+  color: inherit;
+}
+
 .nav-login-cart {
   display: flex;
   align-items: center;
