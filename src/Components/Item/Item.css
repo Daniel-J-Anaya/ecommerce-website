@@ -24,8 +24,34 @@
   text-decoration: line-through;
 }
 
-.item:hover {
+.item img:hover {
   transform: scale(105%);
   transition: 0.6s;
 }
 
+.item button {
+  padding: 12px 16px;
+  width: 144px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background: #FF4141;
+  margin-bottom: 40px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.item button:active {
+  scale: 90%;
+}
+
+.item-stars {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1c1c1c;
+  font-size: 16px;
+}

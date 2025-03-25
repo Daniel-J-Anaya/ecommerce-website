@@ -82,6 +82,10 @@
   cursor: pointer;
 }
 
+.productdisplay-sizes div:focus{
+  background: grey;
+}
+
 .productdisplay-sizes div:hover {
   background: lightgrey;
 }
