@@ -1,49 +1,104 @@
-.offer {
-  width: 65%;
-  height: 60vh;
-  display: flex;
-  margin: auto;
-  padding: 0px 144px;
-  margin-bottom: 152px;
-  background: linear-gradient(180deg, #fde1ff 0%, white 60%);
+@media only screen and (max-width: 600px) {
+  .offer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 152px;
+    background: linear-gradient(180deg, #fde1ff 0%, white 60%);
+  }
+  
+  .offer-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .offer-left h1 {
+    color: #171717;
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .offer-left p {
+    color: #171717;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .offer-left button {
+    width: 280px;
+    height: 72px;
+    border-radius: 32px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 32px;
+    cursor: pointer;
+  }
+  
+  .offer-right {
+    display: none;
+  }
+  
 }
 
-.offer-left {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.offer-left h1 {
-  color: #171717;
-  font-size: 80px;
-  font-weight: 600;
-}
-
-.offer-left p {
-  color: #171717;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.offer-left button {
-  width: 280px;
-  height: 72px;
-  border-radius: 32px;
-  background: #ff4141;
-  border: none;
-  color: white;
-  font-size: 24px;
-  font-weight: 500;
-  margin-top: 32px;
-  cursor: pointer;
-}
-
-.offer-right {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-top: 48px; 
+@media only screen and (min-width: 600px) {
+  .offer {
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    padding: 0px 144px;
+    margin-bottom: 152px;
+    background: linear-gradient(180deg, #fde1ff 0%, white 60%);
+  }
+  
+  .offer-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .offer-left h1 {
+    color: #171717;
+    font-size: 80px;
+    font-weight: 600;
+  }
+  
+  .offer-left p {
+    color: #171717;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .offer-left button {
+    width: 280px;
+    height: 72px;
+    border-radius: 32px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 32px;
+    cursor: pointer;
+  }
+  
+  .offer-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 48px; 
+  }
+  
 }
