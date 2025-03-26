@@ -12,10 +12,15 @@ export const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <div className="nav-logo">
-        <img src={logo} alt="Logo" />
-        <p>SHOPPER</p>
-      </div>
+      <li onClick={()=>{setMenu("shop")}} id='nav-logo'>
+        <Link style={{ textDecoration: 'none' }} to='/'>
+          <div className="nav-logo">
+            <img src={logo} alt="Logo" />
+            <p>SHOPPER</p>
+          </div>
+        </Link>
+        {menu==="shop"?<hr/>:<></>}
+      </li>
       <ul className="nav-menu">
         <li onClick={()=>{setMenu("shop")}}><Link style={{ textDecoration: 'none' }} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("men")}}><Link style={{ textDecoration: 'none' }} to='/men'>Men</Link>{menu==="men"?<hr/>:<></>}</li>
