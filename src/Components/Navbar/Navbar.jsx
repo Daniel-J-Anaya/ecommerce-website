@@ -39,7 +39,7 @@ export const Navbar = () => {
         <li onClick={()=>{setMenu("women")}}><Link style={{ textDecoration: 'none' }} to='/women'>Women</Link>{menu==="women"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("kids")}}><Link style={{ textDecoration: 'none' }} to='/kids'>Kids</Link>{menu==="kids"?<hr/>:<></>}</li>
       </ul>
-      <ul className="sidebar">
+      <ul className="sidebar" id='sidebar'>
         <img className='close-icon' src={close_icon} onClick={hideSidebar} alt='close'/>
         <li onClick={()=>{setMenu("shop")}}><Link style={{ textDecoration: 'none' }} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("men")}}><Link style={{ textDecoration: 'none' }} to='/men'>Men</Link>{menu==="men"?<hr/>:<></>}</li>
