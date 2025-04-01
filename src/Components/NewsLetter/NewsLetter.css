@@ -38,7 +38,6 @@
   }
   
   .newsletter input {
-    width: 504px;
     margin-left: 32px;
     border: none;
     outline: none;
@@ -48,7 +47,7 @@
   }
   
   .newsletter div button {
-    width: 208px;
+    padding: 4px;
     height: 32px;
     border-radius: 80px;
     background: black;
