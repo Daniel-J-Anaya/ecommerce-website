@@ -43,16 +43,16 @@
     outline: none;
     color: #616161;
     font-family: Poppins, arial;
-    font-size: 16px;
+    font-size: 14px;
   }
   
   .newsletter div button {
-    padding: 4px;
+    padding: 4px 16px;
     height: 32px;
     border-radius: 80px;
     background: black;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
   }
   
