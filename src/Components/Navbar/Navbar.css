@@ -110,9 +110,13 @@
     border-radius: 8px;
     background: #FF4141;
   }
+
+  .nav-menu a {
+    color: #626262;
+  }
   
   .nav-menu a:visited {
-    color: inherit;
+    color: #626262;
   }
   
   .nav-menu img {
